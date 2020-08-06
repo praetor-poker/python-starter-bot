@@ -13,7 +13,7 @@ Once you are ready to communicate with the webserver, run the bot with the comma
 ```python bot.py <match_id>```, where ```match_id``` is the match ID for your match. The bot's first action will be to check in with the game server. The match will begin when both players are checked in.
 
 ### Logging
-This bot logs all communication to and from the game server into a file called ```game_log.log```. This file's default location is the top level of the repo.
+This bot logs all communication to and from the game server into a file called ```game_log.log```. The log file's default location is the top level of the repo.
   
 ### Note
 This bot is not good at poker! It's primary purpose is to give participants a quick start with the Praetor Poker communication protocol. 
